@@ -1,5 +1,4 @@
 body {
-    display: flex;
     justify-content: center;
     align-items: center;
     height: 80vh;
@@ -14,7 +13,8 @@ body {
     border-radius: 15px 15px 150px 15px;
     overflow: hidden;
     box-shadow: 0 0 10px rgba(0, 0, 0);
-    text-align:center
+    text-align:center;
+    margin:10px 10px 10px 50px;
 }
 
 .screen {
@@ -31,4 +31,40 @@ body {
     font-size: 28px;
     color: #306230;
     text-shadow: 2px 2px 2px #5D871F;
+}
+
+
+.aboutMe {
+    background-color: #000;
+    color: #fff;
+    margin: 50px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    padding: 100px;
+    font-size: 18px;
+}
+.aboutMe img {
+    width: calc(33.33% - 40px);
+    margin-right: 50px;
+}
+.aboutMe p {
+    width: calc(66.66% - 40px);
+    margin: 0;
+}
+
+
+.workHistory {
+    background-color: blue;
+    color: #fff;
+    margin: 0px 0px 50px 0px;
+    display: grid;
+    align-items: center;
+    padding: 50px;
+    font-size: 18px;
+}
+
+.projects {
+    background-color: red;
+    color: #000;
+    padding: 50px;
 }
