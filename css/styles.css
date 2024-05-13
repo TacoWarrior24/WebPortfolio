@@ -1,26 +1,28 @@
+
 body {
     justify-content: center;
     align-items: center;
     height: 80vh;
     background-color: #8B8B8B;
     margin: 0;
+    font-family: 'Roboto';
 }
 
 .gameboy {
-    width: 95%;
-    height: 100%;
+    width: 50%;
+    height: 90%;
     background-color: #6B6B6B;
-    border-radius: 15px 15px 150px 15px;
+    border-radius: 15px 15px 75px 15px;
     overflow: hidden;
     box-shadow: 0 0 10px rgba(0, 0, 0);
     text-align:center;
-    margin:10px 10px 10px 50px;
+    margin:20px auto
 }
 
 .screen {
     position: relative;
     width: 80%;
-    height: 70%;
+    height: 80%;
     left: 10%;
     background-image: radial-gradient(#9bbc0f, #9bbc0f, #9bbc0f, #8bac0f, #306230);
     border: 2px solid #000000;
@@ -39,11 +41,10 @@ padding-left:100px;
 }
 
 .aboutMe {
-    opacity: 0;
+    opacity: 0.1;
     transition: opacity 4.0s ease-in-out;
     background-color: #000;
     color: #fff;
-    margin: 0px 0px 0px 0px;
     display: flex;
     align-items: center;
     padding: 100px;
@@ -61,7 +62,7 @@ padding-left:100px;
 
 
 .workHistory {
-    opacity: 0;
+    opacity: 0.1;
     transition: opacity 4.0s ease-in-out;
     background-color: white;
     color: #000;
@@ -73,7 +74,7 @@ padding-left:100px;
 }
 
 .education {
-    opacity: 0;
+    opacity: 0.1;
     transition: opacity 4.0s ease-in-out;
     background-color: navy;
     color: gold;
@@ -81,7 +82,7 @@ padding-left:100px;
 }
 
 .projects {
-    opacity: 0;
+    opacity: 0.1;
     transition: opacity 4.0s ease-in-out;
     background-color: #000;
     color: #fff;

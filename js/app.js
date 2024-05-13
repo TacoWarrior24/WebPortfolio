@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 element.style.opacity = opacity;
             } else {
                 // Element is outside the viewport
-                element.style.opacity = "0";
+                element.style.opacity = "0.1";
             }
         }
 
